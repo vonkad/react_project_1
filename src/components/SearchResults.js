@@ -4,7 +4,6 @@ import Book from "./Book";
 
 export default class SearchResults extends Component {
     render() {
-        console.log("Called SearchResults render !");
         const booksData: BookData[] = this.props.books;
         const onShelfChange = this.props.onShelfChange;
 

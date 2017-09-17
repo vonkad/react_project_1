@@ -48,9 +48,7 @@ export default class SearchPage extends Component {
     }
 
     render() {
-        console.log("Call SearchPage render !");
         const query = this.state.query;
-        const books = this.state.books;
         const onShelfChange = this.props.onShelfChange;
 
 

@@ -3,8 +3,6 @@ import BookData from "../entities/BookData";
 
 export default class Book extends Component {
     render() {
-
-
         const props = this.props;
         const bookData : BookData = props.book;
         const onShelfChange = function(event) { props.onShelfChange(bookData, event.target.value) };
@@ -28,7 +26,5 @@ export default class Book extends Component {
         </div>
 
     }
-
-
 }
 

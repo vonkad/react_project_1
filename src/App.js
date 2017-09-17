@@ -20,7 +20,6 @@ export default class BooksApp extends React.Component {
     }
 
     render() {
-        console.log("Called BooksApp render !");
         return (
             <div className="app">
                 <Route exact path="/" render={() => <MainPage onShelfChange={this.onShelfChange}
