@@ -1,10 +1,11 @@
 {
   "name": "Vonka_books_react_udacity",
-  "version": "1",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
